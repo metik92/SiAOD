@@ -1,0 +1,9 @@
+Алгоритм FindMax
+    Вход: (list)
+    Если (list пустой), вернуть (ошибку)
+    max_element ← (list[0])
+    Для каждого (num) в (list)
+        Если (num > max_element), (max_element ← num)
+    КонецДля
+    Вернуть (max_element)
+КонецАлгоритм[
